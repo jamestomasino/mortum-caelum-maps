@@ -72,7 +72,7 @@ function initialize() {
 		onZoomChange();
 	});
 
-//	google.maps.event.addListener(map, 'click', onClick );
+	google.maps.event.addListener(map, 'click', onClick );
 	google.maps.event.addListener(map, 'zoom_changed', onZoomChange );
 }
 
@@ -236,5 +236,5 @@ function placeMarker(location) {
 
 function setupWeatherMarkers() {
 
-	}
+}
 

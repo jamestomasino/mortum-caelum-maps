@@ -4,8 +4,8 @@
 @include establish-baseline;
 
 .label_country {
-	color:white;
-	font-family: 'Berkshire Swash', cursive;
+	color: white;
+	font-family: 'berkshire_swashregular', cursive !important;
 	font-weight: bold;
 	text-align: center;
 	white-space: nowrap;
@@ -15,7 +15,7 @@
 
 .label_city {
 	color:white;
-	font-family:'Century Gothic',futura,'URW Gothic L',Verdana,sans-serif;
+	font-family:'Century Gothic', futura,'URW Gothic L', Verdana, sans-serif !important;
 	font-weight: bold;
 	text-align: center;
 	white-space: nowrap;
