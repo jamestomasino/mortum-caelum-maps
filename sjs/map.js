@@ -9,15 +9,15 @@ mapTypes['mortumcaelum'] = {
 	getTileUrl: function(coord, zoom) {
 		return getHorizontallyRepeatingTileUrl(coord, zoom, function(coord, zoom) {
 			var bound = Math.pow(2, zoom);
-			var url = 'physical/' + zoom + "/" + coord.x + "/" + (bound - coord.y - 1) + '.jpg';
-			url = 'http://map.tomasino.org/' + url;
+			var url = 'tiles/' + zoom + "/" + coord.x + "/" + coord.y + '.jpg';
+			//url = 'http://map.tomasino.org/' + url;
 			return url;
 		});
 	},
 	tileSize: new google.maps.Size(256, 256),
 	isPng: true,
 	maxZoom: 6,
-	minZoom: 0,
+	minZoom: 1,
 	radius: 6378000,
 	name: 'Mortum Caelum',
 	credit: 'Image Credit: James Tomasino'
