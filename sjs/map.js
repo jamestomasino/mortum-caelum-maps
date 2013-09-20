@@ -10,7 +10,7 @@ mapTypes['mortumcaelum'] = {
 		return getHorizontallyRepeatingTileUrl(coord, zoom, function(coord, zoom) {
 			var bound = Math.pow(2, zoom);
 			var url = 'physical/' + zoom + "/" + coord.x + "/" + (bound - coord.y - 1) + '.jpg';
-			url = 'http://tomasino.org/maps/mortumcaelum/' + url;
+			url = 'http://map.tomasino.org/' + url;
 			return url;
 		});
 	},
