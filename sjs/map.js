@@ -52,7 +52,7 @@ function initialize() {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
 		},
 
-		center: new google.maps.LatLng(0, 0),
+		center: new google.maps.LatLng(-31, 132),
 		mapTypeControlOptions: {
 			mapTypeIds: mapTypeIds,
 		}
@@ -209,6 +209,7 @@ function onZoomChange (){
 
 
 function onClick (event) {
+	console.log (event.latLng);
 	placeMarker(event.latLng);
 }
 
@@ -217,7 +218,8 @@ function onMarkerClick (event) {
 }
 
 function placeMarker(location) {
-	var title = "'lat': " + location.$a.toFixed(4) + ", 'lon': " + location.ab.toFixed(4);
+	console.log(location.lat(), location.lng());
+	var title = "'lat': " + location.lat().toFixed(4) + ", 'lon': " + location.lng().toFixed(4);
 	var markerOptions = {};
 	markerOptions.title = title;
 	markerOptions.map = map;

@@ -36,16 +36,16 @@ cities.push ( { 'name': 'Nahrina', 'lat': -58.4650, 'lon': -5.6909 } )
 cities.push ( { 'name': 'Tinh', 'lat': -44.3710, 'lon': -10.6787 } )
 
 // Afona
-cities.push ( { 'name': 'Penebyr', 'lat': -76.4758, 'lon': 169.0356 } );
-cities.push ( { 'name': 'Pentorlennydd', 'lat': -64.2255, 'lon': 140.4272 } );
+cities.push ( { 'name': 'Penebyr', 'lat': -78.3494, 'lon': 160.5762} );
+cities.push ( { 'name': 'Pentorlennydd', 'lat': -62.2475, 'lon': 135.8789} );
 cities.push ( { 'name': 'Bachynys', 'lat': -46.6344, 'lon': 124.3652 } );
-cities.push ( { 'name': 'Iomys', 'lat': -36.1024, 'lon': 151.0840 } );
-cities.push ( { 'name': 'Ashydd', 'lat': -19.2282, 'lon': 155.6982 } );
-cities.push ( { 'name': 'Badaar-Torlan', 'lat': -17.0148, 'lon': 143.9209 } );
-cities.push ( { 'name': 'Cymeroma', 'align':'top', 'lat': -7.1445, 'lon': 142.6465 } );
-cities.push ( { 'name': 'Caethadra', 'align':'top', 'lat': -1.2743, 'lon': 136.5381 } );
-cities.push ( { 'name': 'Baeryn', 'align':'top', 'lat': -17.1828, 'lon': 151.0400 } );
-cities.push ( { 'name': 'Cymerbyr', 'lat': -7.7110, 'lon': 142.0313 } );
+cities.push ( { 'name': 'Iomys', 'lat': -41.2117, 'lon': 155.2588 } );
+cities.push ( { 'name': 'Ashydd', 'lat': -21.7799, 'lon': 157.5439} );
+cities.push ( { 'name': 'Badaar-Torlan', 'lat': -13.4965, 'lon': 148.6230} );
+cities.push ( { 'name': 'Cymeroma', 'align':'top', 'lat': -10.2933, 'lon': 143.7451 } );
+cities.push ( { 'name': 'Caethadra', 'align':'top', 'lat': -0.0220, 'lon': 136.9116 } );
+cities.push ( { 'name': 'Baeryn', 'align':'top', 'lat': -17.7278, 'lon': 152.9956} );
+cities.push ( { 'name': 'Cymerbyr', 'lat': -10.6822, 'lon': 143.3057 } );
 cities.push ( { 'name': 'Torynys', 'align':'top', 'lat': -12.2971, 'lon': 129.1113 } );
 
 // Anello
@@ -158,9 +158,9 @@ cities.push ( { 'name': 'Alam', 'lat': 79.0468, 'lon': -105.4248 } );
 cities.push ( { 'name': 'Equitum', 'lat': 80.9354, 'lon': -87.0557 } );
 
 // Phalaina
-cities.push ( { 'name': 'Ruthorni', 'lat': -22.7154, 'lon': 158.3350 } );
-cities.push ( { 'name': 'Terasthalas', 'lat': -31.1094, 'lon': 166.6626 } );
-cities.push ( { 'name': 'Batrahos', 'lat': -37.3876, 'lon': 169.2993 } );
+cities.push ( { 'name': 'Ruthorni', 'lat': -23.6244, 'lon': 162.6416 } );
+cities.push ( { 'name': 'Terasthalas', 'lat': -28.7291, 'lon': 168.4204 } );
+cities.push ( { 'name': 'Batrahos', 'lat': -34.7777, 'lon': 166.9263 } );
 cities.push ( { 'name': 'Eperoha', 'lat': -27.9556, 'lon': 158.9502 } );
 
 // Pabilsag
