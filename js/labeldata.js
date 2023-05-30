@@ -196,4 +196,3 @@ cities.push ( { 'name': 'Vendangeur', 'lat': 2.4163, 'lon': -1.8018 } );
 cities.push ( { 'name': 'Kusak', 'lat': 78.5168, 'lon': 148.0518 } );
 cities.push ( { 'name': 'Caracal', 'lat': 80.7111, 'lon': 118.5205 } );
 cities.push ( { 'name': 'Kuyruk', 'lat': 77.0098, 'lon': 162.3779 } );
-
