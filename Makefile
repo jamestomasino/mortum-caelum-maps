@@ -7,8 +7,11 @@ help:
 serve: ## start local webserver for testing
 	python3 -m http.server
 
-deploy: ## send files to webserver
-	rsync -rvhe ssh --progress --delete ./ tomasino.org:/var/www/map.tomasino.org/
+deploy: build ## send files to webserver
+	rsync -rvhe ssh --progress --exclude '.git*' --exclude 'Makefile' --delete ./ tomasino.org:/var/www/map.tomasino.org/
 
-.PHONY: serve deploy
+build:
+	sass scss:css
+
+.PHONY: serve deploy build
 
