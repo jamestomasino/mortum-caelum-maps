@@ -4,10 +4,10 @@ help:
 	| sed -n 's/^\(.*\): \(.*\)##\(.*\)/  \1|\3/p' \
 	| column -t  -s '|'
 
-serve: ## start hugo watcher and webserver
+serve: ## start local webserver for testing
 	python3 -m http.server
 
-deploy: build $(SIG_FILES) ## send built files to webserver
+deploy: ## send files to webserver
 	rsync -rvhe ssh --progress --delete ./ tomasino.org:/var/www/map.tomasino.org/
 
 .PHONY: serve deploy
